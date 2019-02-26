@@ -20,4 +20,4 @@ def getInfo(sent):
   time = {}
   time = [word for word in tagged if word[1] in ["NN"]]
   #print(time)
-  return time
+  return (tense,time)
