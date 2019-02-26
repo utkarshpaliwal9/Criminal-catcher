@@ -16,7 +16,7 @@ def convert():
         print("Processing....")
         #r.recognize_google_cloud(audio)
         print("You said:-")
-        print(r.recognize_google(audio))
+        return r.recognize_google(audio)
     except:
         print("Didn't recognize that, please try again")
         return -1
