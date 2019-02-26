@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-@author: Utkarsh
+@author: Shreyansh
 """
 
 from nltk import word_tokenize, pos_tag
