@@ -18,5 +18,5 @@ def convert():
         print("You said:-")
         return r.recognize_google(audio)
     except:
-        print("Didn't recognize that, please try again")
+        print("Didn't recognize that, please try again\n")
         return -1

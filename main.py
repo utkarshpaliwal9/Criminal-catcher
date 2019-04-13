@@ -14,11 +14,13 @@ while True:
     sent = st.convert()
     if sent != -1:
         break
-print("Now let's decode")
+
 if len(sent) != 0:
     print(sent)
 else:
-    print("Nothing")
+    print("Nothing\n")
+
+print("Now let's decode\n")
 
 info2 = temp_tense.getInfo(sent)
 
