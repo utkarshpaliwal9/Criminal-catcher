@@ -27,4 +27,4 @@ info2 = temp_tense.getInfo(sent)
 if isCriminal(sent,info2) == True:
     print("Alert! Caution!\nThis might be a conversation to look into")
 else:
-    print("Seems all good in here")
+    print("All good in here")
