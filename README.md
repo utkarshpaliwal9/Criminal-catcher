@@ -4,6 +4,6 @@ A Python model to detect if a conversation pertains to something that can be cla
 It uses various techniques to analyse the speech such as POS Tagging, Naive Bayes and Stemming. Audio to text is handled by Google API.
 
 Installations of required libraries:
-pip install textblob
-pip install nltk
+pip install textblob, \n
+pip install nltk, \n
 pip install SpeechRecognition
